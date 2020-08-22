@@ -1,5 +1,4 @@
 #User-defined files
-service/artifacts/*.joblib
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

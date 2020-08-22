@@ -32,7 +32,7 @@ class Model():
 
     self.b_pipeline, self.f_pipeline, self.m_pipeline = get_model(model_path)
     #del self.f_pipeline
-    #del self.m_pipeline
+    #del self.b_pipeline
     with open(Path(model_path,'category_mapper.p'), 'rb') as fp:
       self.category_mapper = pickle.load(fp)
 

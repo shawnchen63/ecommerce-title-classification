@@ -35,7 +35,7 @@ class MainClass(Resource):
 		return response
 
 	@app.expect(flask_model)
-	#@mp.profile		
+	@mp.profile		
 	def post(self):
 		try: 
 			formData = request.json
