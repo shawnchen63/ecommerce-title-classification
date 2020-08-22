@@ -64,7 +64,6 @@ class App extends Component {
     const predicted_category = this.state.predicted_category;
 
     console.log(predicted_category)
-eye patch
 
     return (
       <Container>

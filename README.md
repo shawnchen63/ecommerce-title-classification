@@ -5,6 +5,7 @@ Given a product title, classify the category the product belongs to.
 ## Installation
 Installing the python service package (recommend to use virtualenv with python3.6)
 ```bash
+cd service/
 pip install -r requirement.txt
 ```
 Installing npm serve
